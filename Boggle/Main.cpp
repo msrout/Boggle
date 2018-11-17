@@ -35,7 +35,9 @@ int CalculateScore( vector<string> wordlist )
 	}
 	return score;
 }
-
+/*
+* calculates score for each player and stopre ina map where the key is player name.
+*/
 map<string, int> MultiplayerScore(map<string,vector<string>> wordlistmap)
 {
 	map<string, int> resultmap;
