@@ -9,31 +9,31 @@ using namespace std;
 
 int CalculateScore( vector<string> wordlist )
 {
-	int result = 0;
+	int score = 0;
 	for (string str : wordlist)
 	{
 		if (str.length() == 3 || str.length() == 4)
 		{
-			result += 1;
+			score+= 1;
 		}
 		else if (str.length() == 5)
 		{
-			result += 2;
+			score+= 2;
 		}
 		else if (str.length() == 6)
 		{
-			result += 3;
+			score+= 3;
 		}
 		else if (str.length() == 7)
 		{
-			result += 5;
+			score+= 5;
 		}
 		else if (str.length() >= 8)
 		{
-			result += 11;
+			score+= 11;
 		}
 	}
-	return result;
+	return score;
 }
 
 map<string, int> MultiplayerScore(map<string,vector<string>> wordlistmap)
