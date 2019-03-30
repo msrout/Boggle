@@ -6,7 +6,7 @@ using namespace std;
 #include<sstream>
 #include<algorithm>
 #include<fstream>
-// pushed to github. this is second time I m changing.
+// This is my first game.
 int CalculateScore( vector<string> wordlist )
 {
 	int score = 0;
