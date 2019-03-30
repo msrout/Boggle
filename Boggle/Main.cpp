@@ -6,7 +6,7 @@ using namespace std;
 #include<sstream>
 #include<algorithm>
 #include<fstream>
-// This is my first game for boggle
+
 int CalculateScore( vector<string> wordlist )
 {
 	int score = 0;
