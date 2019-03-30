@@ -6,7 +6,7 @@ using namespace std;
 #include<sstream>
 #include<algorithm>
 #include<fstream>
-// pushed to github
+// pushed to github. this is second time I m changing.
 int CalculateScore( vector<string> wordlist )
 {
 	int score = 0;
