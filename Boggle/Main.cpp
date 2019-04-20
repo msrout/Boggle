@@ -6,7 +6,7 @@ using namespace std;
 #include<sstream>
 #include<algorithm>
 #include<fstream>
-// changing void main to int main
+// changing void to int main
 
 int
 CalculateScore (vector < string > wordlist)
