@@ -6,7 +6,11 @@ using namespace std;
 #include<sstream>
 #include<algorithm>
 #include<fstream>
+<<<<<<< HEAD
 //I am changing in master branch
+=======
+//I am in ona:wq branch
+>>>>>>> Mona_Boggle
 int
 CalculateScore (vector < string > wordlist)
 {
